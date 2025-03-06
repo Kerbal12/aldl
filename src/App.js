@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
-import SensorData from "./components/SensorData"; // Import SensorData.js
-import Diagnosis from "./components/Diagnosis"; // Import Diagnosis.js
+import SensorData from "./components/SensorData";
+import Diagnosis from "./components/Diagnosis";
+import PremiumPlan from "./components/PremiumPlans"; // Import PremiumPlan.js
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/sensor-data" element={<SensorData />} />
-        <Route path="/diagnosis" element={<Diagnosis />} /> {/* Add route for Diagnosis */}
+        <Route path="/diagnosis" element={<Diagnosis />} />
+        <Route path="/premium-plan" element={<PremiumPlan />} /> {/* Added PremiumPlan Route */}
       </Routes>
     </Router>
   );

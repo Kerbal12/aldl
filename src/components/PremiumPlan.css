@@ -1,0 +1,63 @@
+.premium-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .premium-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .premium-price {
+    font-size: 22px;
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .premium-features {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+  
+  .premium-features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .premium-features li {
+    font-size: 18px;
+    padding: 8px 0;
+    color: #333;
+  }
+  
+  .premium-features li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #27ae60;
+  }
+  
+  .explore-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #27ae60;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .explore-button:hover {
+    background: #219150;
+  }
+  
